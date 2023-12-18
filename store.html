@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="/image/logo.png">
+        <link rel="stylesheet" href="css/navigation.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        
+
+        
+        <div class="nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+              <div class="nav-title">
+                Bakery
+              </div>
+            </div>
+            <div class="nav-btn">
+              <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+            </div>
+            
+            <div class="nav-links">
+              <a href="index.html" target="_blank">Home</a>
+              <a href="store.html" target="_blank">Store</a>
+              <a href="about.html" target="_blank">About</a>
+              <a href="contact.html" target="_blank">Contact</a>
+            </div>
+
+        </div>   
+
+        <!-- <div id = "test"></div> -->
+
+
+            <div class="row">
+
+              <!-- <div class="column" style="background-color:#73943f;"> -->
+                <!-- <div class = "image-container">
+                <img id="myImg" class="responsive" src="image/chocolate-chip-cookie-16.jpg" alt="chocolate chip cookie">
+                </div>
+
+                <div id="myModal" class="modal">
+                  <span class="close">&times;</span>
+                  <img class="modal-content" id="img01">
+                  <div id="caption"></div>
+                </div> -->
+
+
+
+                <div class="shopping-cart">
+                  <div class="cart-header">
+                    <h1>Shopping Cart</h1>
+                  </div>
+                  <div class="cart-items" id="cart-items">
+                    <!-- <div class="cart-item">
+                      <img src="image/chocolate-chip-cookie-16.jpg" alt="Product 1">
+                      <div class="item-details">
+                        <h2>Product 1</h2>
+                        <p>Price: $10</p>
+                        <p>Quantity: 1</p>
+                      </div>
+                    </div>
+                    <div class="cart-item">
+                      <img src="image/Dorayaki-recipe-red-bean.jpg" alt="Product 2">
+                      <div class="item-details">
+                        <h2>Product 2</h2>
+                        <p>Price: $20</p>
+                        <p>Quantity: 2</p>
+                      </div>
+                    </div> -->
+                  </div>
+                  <div class="cart-total">
+                    <h2>Total: €0</h2>
+                    <button class = "button" onclick="ClearItem()">Clear</button>
+                    <button class = "button" onclick="CheckOutButton()">CheckOut</button>
+                  </div>
+                </div>
+                
+                               
+
+
+
+              <!-- </div> -->
+
+              <!-- <div class="column" style="background-color:#d8b347;">
+                <section class="parent">
+                  <div class="child">                   -->
+                    <!-- <h2>Lorem.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita asperiores impedit dicta nihil quia earum rem minima labore corporis? Eveniet reiciendis laboriosam quos? Unde ex officia iure itaque alias harum.</p>
+                    <a href="#" class="button">Button</a> -->
+                                    <!-- HTML code for the drop-down list -->
+                  <!-- <form>
+                    <label for="number-select">Select a number:</label>
+                    <select name="number-select" id="number-select">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                    </select>
+                    <br><br>
+                    <input type="submit" value="Submit">
+                  </form> -->
+
+                  <!-- </div>
+                </section>
+              </div> -->
+
+            </div>
+
+            <div class="row">
+
+              <div class="column" style="background-color:#73943f;">
+                <div class = "image-container">
+                <img id="myImg" class="responsive" src="image/chocolate-chip-cookie-16.jpg" alt="chocolate chip cookie">
+                </div>
+                <div id="myModal" class="modal">
+                  <span class="close">&times;</span>
+                  <img class="modal-content" id="img01">
+                  <div id="caption"></div>
+                </div>
+              </div>
+
+              <div class="column" style="background-color:#d8b347;">
+                <section class="parent">
+                  <div class="child">                  
+                    <!-- <h2>Lorem.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita asperiores impedit dicta nihil quia earum rem minima labore corporis? Eveniet reiciendis laboriosam quos? Unde ex officia iure itaque alias harum.</p>
+                    <a href="#" class="button">Button</a> -->
+                    <form>
+                      <p id="name_one">Name: chocolate chip chookie</p>
+                      <p id="price_one">Price: 2 Euro</p>
+                      <br>
+                      <label for="number-select">Select a number:</label>
+                      <select name="number-select" id="number-select_one">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                      </select>
+                      <br><br>
+                      <button type="button" onclick="AddToCart_One()" class="item">Add To Cart</button>
+                    </form>
+
+                  </div>
+                </section>
+              </div>
+
+            </div>
+
+
+
+
+
+            <div class="row">
+
+              <div class="column" style="background-color:#d8b347;">
+                <section class="parent">
+                  <div class="child">                  
+                    <!-- <h2>Lorem.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita asperiores impedit dicta nihil quia earum rem minima labore corporis? Eveniet reiciendis laboriosam quos? Unde ex officia iure itaque alias harum.</p>
+                    <a href="#" class="button">Button</a> -->
+                    <form>
+                      <p id="name_two">Name: Dorayaki</p>
+                      <p id="price_two">Price: 2 Euro</p>
+                      <br>
+                      <label for="number-select">Select a number:</label>
+                      <select name="number-select" id="number-select_two">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                      </select>
+                      <br><br>
+                      <button type="button" onclick="AddToCart_Two()" class="item">Add To Cart</button>
+                    </form>
+
+                  </div>
+                </section>
+              </div>
+
+              <div class="column" style="background-color:#73943f;">
+                <div class = "image-container">
+                <img id="myImg2" class="responsive" src="image/Dorayaki-recipe-red-bean.jpg" alt="Dorayaki">
+                </div>
+                <div id="myModal2" class="modal">
+                  <span class="close">&times;</span>
+                  <img class="modal-content" id="img02">
+                  <div id="caption2"></div>
+                </div>
+              </div>
+
+            </div>
+
+
+
+
+
+
+            <div class="row">
+
+              <div class="column" style="background-color:#73943f;">
+                <div class = "image-container">
+                <img id="myImg3" class="responsive" src="image/mango_cake.jpg" alt="mango cake">
+                </div>
+                <div id="myModal3" class="modal">
+                  <span class="close">&times;</span>
+                  <img class="modal-content" id="img03">
+                  <div id="caption3"></div>
+                </div>
+              </div>
+
+              <div class="column" style="background-color:#d8b347;">
+                <section class="parent">
+                  <div class="child">                  
+                    <!-- <h2>Lorem.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita asperiores impedit dicta nihil quia earum rem minima labore corporis? Eveniet reiciendis laboriosam quos? Unde ex officia iure itaque alias harum.</p>
+                    <a href="#" class="button">Button</a> -->
+                    <form>
+                      <p id="name_three">Name: Mango cake</p>
+                      <p id="price_three">Price: 2 Euro</p>
+                      <label for="number-select">Select a number:</label>
+                      <select name="number-select" id="number-select_three">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                      </select>
+                      <br><br>
+                      <button type="button" onclick="AddToCart_Three()" class="item">Add To Cart</button>
+                    </form>
+
+                  </div>
+                </section>
+              </div>
+
+            </div>
+
+
+
+
+
+
+            <div class="row">
+
+              <div class="column" style="background-color:#d8b347;">
+                <section class="parent">
+                  <div class="child">                  
+                    <!-- <h2>Lorem.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita asperiores impedit dicta nihil quia earum rem minima labore corporis? Eveniet reiciendis laboriosam quos? Unde ex officia iure itaque alias harum.</p>
+                    <a href="#" class="button">Button</a> -->
+                    <form>
+                      <p id="name_four">Name: Strawberry Cake</p>
+                      <p id="price_four">Price: 2 Euro</p>
+                      <label for="number-select">Select a number:</label>
+                      <select name="number-select" id="number-select_four">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                      </select>
+                      <br><br>
+                      <button type="button" onclick="AddToCart_Four()" class="item">Add To Cart</button>
+                    </form>
+
+                  </div>
+                </section>
+              </div>
+
+              <div class="column" style="background-color:#73943f;">
+                <div class = "image-container">
+                <img id="myImg4" class="responsive" src="image/Strawberry-Cake-S1.jpg" alt="Strawberry Cake">
+                </div>
+                <div id="myModal4" class="modal">
+                  <span class="close">&times;</span>
+                  <img class="modal-content" id="img04">
+                  <div id="caption4"></div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- <div class="row">
+              <div class="column" style="background-color:#aaa;">
+                <img src="image/Strawberry-Cake-S1.jpg" alt="Bakery" class="responsive">
+              </div>
+              <div class="column" style="background-color:#bbb;">
+                <h2>Column 2</h2>
+                <p>Some text..</p>
+              </div>
+            </div> -->
+          
+
+        
+        
+        
+        <script src="js/main.js" async defer></script>
+
+        <div class="row">
+          <footer>
+            <div class="footer-content">
+              <!--add all information -->
+              <h3>Bakery Store</h3>
+              <p>Best Bakery Store in Dublin.</p>
+              <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+             </ul>
+            </div>
+          </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="/image/logo.png">
+        <link rel="stylesheet" href="css/navigation.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        
+
+        
+        <div class="nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+              <div class="nav-title">
+                Bakery
+              </div>
+            </div>
+            <div class="nav-btn">
+              <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+            </div>
+            
+            <div class="nav-links">
+              <a href="index.html" target="_blank">Home</a>
+              <a href="store.html" target="_blank">Store</a>
+              <a href="about.html" target="_blank">About</a>
+              <a href="contact.html" target="_blank">Contact</a>
+            </div>
+          </div>
+
+            <div class="row" >
+
+              <div class="column" id="checkout_bg_one" style="background-image: url(image/checkout_background.gif);">
+                <section class="parent">
+                    <div class="child"> 
+                        <div class="label">Name: </div><p id="dispaly_name"></p>
+                        <div class="label">Email: </div><p id="dispaly_email"></p>
+                        <div class="label">Phone: </div><p id="dispaly_phone"></p>
+                        <div class="label">Eircode: </div><p id="dispaly_eircode"></p>
+                        <div class="label">Address: </div><p id="dispaly_address"></p>
+                    </div>
+                </section>
+              </div>
+
+              <div class="column" style="background-color:#fbe1f2;">
+                <section class="parent">
+                  <div class="child">                  
+                    <!-- <h2>Lorem.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita asperiores impedit dicta nihil quia earum rem minima labore corporis? Eveniet reiciendis laboriosam quos? Unde ex officia iure itaque alias harum.</p>
+                    <a href="#" class="button">Button</a> -->
+                    <p><label>Name:</label></p>
+                    <input type="text" id="myText" value="Enter your name">
+                    <p><label>Email:</label></p>
+                    <input type="text" id="myText2" value="xxx@xxx.com">
+                    <p><label>Phone Number:</label></p>
+                    <input type="text" id="myText3" value="087xxxxxxx">
+                    <p><label>Eircode:</label></p>
+                    <input type="text" id="myText4" value="Enter your Eircode here">
+                    <p><label>Address:</label></p>
+                    <textarea id="myText5" name="AddressText" rows="4" cols="50">Enter your address here</textarea>
+                    <br>
+                    <button type="button" onclick="CheckOutForm()" class = "button">Cash On Delivery</button>
+                    <!-- <button type="button" onclick="ContactForm()" class = "button">Submit</button> -->
+                    <!-- <p id="result_name"></p>
+                    <p id="result_email"></p>
+                    <p id="result_phone_number"></p>
+                    <p id="result_feedback"></p> -->
+
+                    <!-- Name:<input type="text" id="myText" value="Mickey">
+                    <button type="button" onclick="myFunction()">Try it</button>
+                    <p id="demo"></p> -->
+
+                  </div>
+                </section>
+              </div>
+
+            </div>
+
+            <div class="row" >
+
+                <div class="column" id="checkout_bg_one" style="background-image: url(image/checkout_background_one.gif);">
+                    <section class="parent">
+                        <div class="child"> 
+                          <!-- quote container -->
+                          <div class="quote-container">
+                            <p class="quote-text">“When you’re old, all you want to do is stare at the scenery. It’s so strange. I’ve never felt so peaceful before.”</p>
+                            <p class="quote-author">- Old Sophie</p>
+                          </div>
+
+                        </div>
+                    </section>
+                </div>
+  
+                <div class="column" style="background-color:#4577aa;">
+                    <section class="parent">
+                        <div class="child"> 
+                            <div class="label">Order Info: </div><p id="dispaly_order"></p>
+                        </div>
+                    </section>
+                </div>
+  
+
+              </div>
+
+
+
+
+
+            <!-- <div class="row">
+              <div class="column" style="background-color:#aaa;">
+                <img src="image/Strawberry-Cake-S1.jpg" alt="Bakery" class="responsive">
+              </div>
+              <div class="column" style="background-color:#bbb;">
+                <h2>Column 2</h2>
+                <p>Some text..</p>
+              </div>
+            </div> -->
+          
+
+        
+        
+        
+        <script src="js/main.js" async defer></script>
+
+        <div class="row">
+          <footer>
+            <div class="footer-content">
+              <!--add all information -->
+              <h3>Bakery Store</h3>
+              <p>Best Bakery Store in Dublin.</p>
+              <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+             </ul>
+            </div>
+          </footer>
+        </div>
+    </body>
+</html>
